@@ -13,11 +13,16 @@
 	"email": "...",
 	"listaServProd": [
 		{
-			"numero": "01",
+			"numero": "1",
 			"serviprod": "teste",
-			"quantidade": "01",
-			"valunit": "0",
-			"total": "0"
+			"quantidade": "2",
+			"valunit": "2.5"
+		},
+		{
+			"numero": "2",
+			"serviprod": "teste2",
+			"quantidade": "6",
+			"valunit": "5"
 		}
 	]
 }
