@@ -22,11 +22,7 @@
     <script type="text/javascript">
       var dados = "";
       var listaSeries = document.querySelector("#listaSeries");
-      axios.get({
-        method: "get",
-        url: "https://sheetlabs.com/AN/videosapi",
-        responseType: "json"
-      }).then(function(response){
+      axios.get("https://sheetlabs.com/AN/videosapi").then(function(response){
         dados = response.data;
         for(x in dados){
           listaSeries.innerHTML += "<li>" +
