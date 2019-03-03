@@ -2,27 +2,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <script src="https://get.mavo.io/mavo.js"></script>
-    <link rel="stylesheet" href="https://get.mavo.io/mavo.css">
-    <script type="text/javascript">
-      function atualizar() {
-        alert("Atualizando dados, por favor aguarde...");
-        setTimeout(function() {
-          window.location.reload();
-        }, 4000);
-      }
-    </script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
   </head>
   <body>
   
-    <div mv-app="teste" mv-storage="local" mv-mode="edit" mv-autosave="0">
-      <h2>Nome:
-        <span property="nome"></span>
-      </h2>
-      <p>Idade
-        <span property="idade"></span>
-      </p>
-      <button onclick="atualizar()">Atualizar</button>
+    <div data-role="page">
+      <div data-role="header" data-position="fixed">
+        <h3>Web Player</h3>
+      </div>
+      
+      <div class="ui-content" role="main">
+        <p>O conteúdo vai aqui</p>
+      </div>
     </div>
     
   </body>
